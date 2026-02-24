@@ -58,6 +58,44 @@
 
     </section>
 
+    <section id="habilidades">
+
+        <h2>Habilidades de Tecnologia</h2>
+
+        <table>
+            <thead>
+                <tr>
+                    <th>tecnologia</th>
+                    <th>nível</th>
+                    <th>descrição</th>
+                </tr>
+            </thead>
+
+            <tbody>
+                <tr>
+                    <td>HTML</td>
+                    <td>Intermediário</td>
+                    <td>Experiência em desenvolvimento web com HTML e CSS.</td>
+                </tr>
+                
+                <tr>
+                    <td>CSS</td>
+                    <td>Intermediário</td>
+                    <td>Conhecimento em JavaScript para desenvolvimento de aplicações web.
+
+                </td>
+
+                <tr>
+                    <td>JavaScript</td>
+                    <td>Intermediário</td>
+                    <td>Conhecimento em CSS para estilização e layout de páginas web.</td>
+                </tr>
+
+            </tbody>
+        </table>
+
+    </section>
+
     <footer>
 
         <p>&copy; 2024 Cesar Felipe. Todos os direitos reservados.</p>
@@ -68,8 +106,44 @@
             
             <address></address>
                 <p>E-mail: <a href="mailto:cesarfelipe8019breno@gmail.com">cesarfelipe8019breno@gmail.com</a></p>
-                <p>Fone: <a href="tel:+5545988409141">+55 (45) 98840-9141</a></p>
+                <p>Fone: <a href="tel:+5545988409141">+55 (45) 98840-9141</a></p>            
             </address>
+
+            <form action="">
+                <label for="nome">Nome: </label>
+                <input type="text" id="nome" name="nome" required> <br>
+
+                <label for="email">E-mail: </label>
+                <input type="email" id="email" name="email" required> <br>
+
+                <label for="telefone">Telefone: </label>
+                <input type="tel" id="telefone" name="telefone"> <br>
+
+                <label for="assunto">Assunto: </label>
+                <select name="assunto" id="assunto">
+                    <option value="orcamento">Orçamento</option>
+                    <option value="duvida">Dúvida</option>
+                    <option value="outro">Outro</option>
+                </select>
+
+                <br>
+
+                <label for="mensagem">Mensagem: </label>
+                <textarea name="mensagem" id="mensagem" cols="20" rows="5"></textarea>
+                 <br>
+                <input type="checkbox" id="inscricao" name="newsletter">
+                <label for="inscricao">Desejo receber novidades e atualizações por e-mail.</label>
+
+                <br>
+
+                <input type="submit" value="Enviar mensagem">
+
+                <br>
+
+                <input type="date">
+
+
+            </form>    
         </section>
 
     </footer>
